@@ -1,0 +1,107 @@
+.about-container {
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #f5fccc, #f8fafc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+    
+}
+li{
+    list-style-type: none;
+}
+.about-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1e293b;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    max-width: 800px;
+    text-align: center;
+    font-size: 18px;
+    color: #334155;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.about-card {
+    width: 100%;
+    max-width: 700px;
+    list-style-type: none;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-5px);
+}
+
+.about-card h2 {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.about-card ul {
+    padding-left: 20px;
+}
+
+.about-card li {
+    margin-bottom: 8px;
+    color: #475569;
+    font-size: 16px;
+}
+
+/* 🔥 Small Devices (Mobile) */
+@media screen and (max-width: 480px) {
+    .about-container {
+        padding: 20px 10px;
+        max-width: 150vh;
+        overflow:auto;
+    }
+
+    .about-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .about-description {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .about-card {
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+
+    .about-card h2 {
+        font-size: 18px;
+    }
+
+    .about-card li {
+        font-size: 14px;
+    }
+}
+
+/* 📱 Tablets */
+@media screen and (max-width: 768px) {
+    .about-title {
+        font-size: 28px;
+    }
+
+    .about-description {
+        font-size: 16px;
+    }
+
+    .about-card {
+        max-width: 90%;
+    }
+}
