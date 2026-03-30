@@ -90,6 +90,7 @@ const Projects = () => {
     <div>
         <h1>Still in work</h1>
         <p>working successfull</p>
+        <h1>Projects</h1>
     </div>
     )
 }
